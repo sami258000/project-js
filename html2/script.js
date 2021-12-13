@@ -6,7 +6,7 @@ let x;
 let y;
 
 var canvas = document.querySelector("canvas");
-c = canvas.getContext("2d");
+let c = canvas.getContext("2d");
 
 canvas.addEventListener("mousedown",(e)=>{
     isDrawing=true;
